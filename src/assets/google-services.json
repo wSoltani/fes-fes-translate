@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "381570278157",
+    "project_id": "fesfestranslate",
+    "storage_bucket": "fesfestranslate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381570278157:android:6cbe34937326f391ab4644",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381570278157-o62qhnrepfd3ndbpkmniiol1ggi5oldr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyUbaUYKNO90JAb0u65tWFSBKD3oWHHmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381570278157-o62qhnrepfd3ndbpkmniiol1ggi5oldr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
