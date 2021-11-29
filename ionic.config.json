@@ -1,0 +1,8 @@
+{
+  "name": "FesFesTranslate",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "6b0ad191"
+}
