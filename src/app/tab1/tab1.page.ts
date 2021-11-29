@@ -8,9 +8,9 @@ import { SpeechRecognition } from '@ionic-native/speech-recognition/ngx';
 })
 export class Tab1Page {
   constructor(private speechRecognition: SpeechRecognition) {
-    // this.speechRecognition
-    //   .isRecognitionAvailable()
-    //   .then((available: boolean) => console.log(available));
+    this.speechRecognition
+      .isRecognitionAvailable()
+      .then((available: boolean) => console.log(available));
   }
 
   startRecognition() {

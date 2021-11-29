@@ -1,7 +1,10 @@
 {
   "name": "FesFesTranslate",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
   },
   "type": "angular",
   "id": "6b0ad191"
