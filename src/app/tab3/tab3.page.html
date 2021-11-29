@@ -1,17 +1,39 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+    <ion-title> Translation </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+      <ion-title size="large">Translation</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-item>
+    <ion-label>Expression</ion-label>
+    <ion-select [(ngModel)]="selectedExpression">
+      <ion-select-option
+        [value]="expression.key"
+        *ngFor="let expression of expressions"
+      >
+        {{expression.key}}
+      </ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Language</ion-label>
+    <ion-select [(ngModel)]="selectedLanguage">
+      <ion-select-option [value]="lang.code" *ngFor="let lang of languages">
+        {{lang.displayName}}
+      </ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-button expand="block" (click)="translate()">Translate</ion-button>
+  <ion-item>
+    <ion-label class="translated"> {{translatedExpression}} </ion-label>
+  </ion-item>
 </ion-content>
